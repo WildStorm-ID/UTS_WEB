@@ -1,0 +1,26 @@
+.hero {
+    background-image: url('img/binary\ background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.profilPic {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+}
