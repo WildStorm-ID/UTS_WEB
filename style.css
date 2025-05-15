@@ -2,7 +2,7 @@
     background-image: url('img/binary\ background.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust as needed */
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,4 +23,16 @@
     padding: 10px;
     background-color: #f8f9fa; 
     border-radius: 10px;
+}
+
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+}
+
+.navbar-brand {
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
 }
