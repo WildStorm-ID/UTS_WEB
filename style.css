@@ -1,3 +1,9 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+background-color:rgb(23, 101, 62);
+}
+
 .hero {
     background-image: url('img/binary\ background.jpg'); /* Replace with your image */
     background-size: cover;
@@ -10,9 +16,10 @@
     color: white;
 }
 
-.btn:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+.navbar-brand {
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .profilPic {
@@ -25,14 +32,7 @@
     border-radius: 10px;
 }
 
-
-body {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: black;
-}
-
-.navbar-brand {
-    display: block;
-    word-wrap: break-word;
-    white-space: normal;
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
